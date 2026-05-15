@@ -1,0 +1,1 @@
+demo文件夹作为后端的代码采用jdk17，需要在idea中使用jdk17去实现，同时需要创建user和orders数据库用于存储信息在你的电脑上，application.properties上配置你的数据库密码
