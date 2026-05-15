@@ -1,7 +1,7 @@
 # 全栈实现打车项目和管理系统实现
 
 ## 项目环境配置
-1. backend 文件夹为后端代码，采用 JDK17，需要在 IDEA 中使用 JDK17 运行
+1. demo 文件夹为后端代码，采用 JDK17，需要在 IDEA 中使用 JDK17 运行
 2. 需提前创建 user 和 orders 数据库，用于存储信息
 3. 在 application.properties 中配置你的数据库密码
 4. 前端使用最新 Vite + Vue3 脚手架实现
