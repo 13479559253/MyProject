@@ -5,6 +5,7 @@
 2. 需提前创建 user 和 orders 数据库，用于存储信息
 3. 在 application.properties 中配置你的数据库密码
 4. 前端使用最新 Vite + Vue3 脚手架实现
+5. 需要你进行注册根据role设定角色再进行使用
 
 ## 账号密码格式规范
 - 用户名规则：6-12位，只能由字母、数字组成
@@ -18,7 +19,7 @@
 
 ## 后端技术栈与功能
 - 核心框架：SpringBoot
-- 中间件：Redis、MySQL
+- 中间件：Redis，MySQL，jwt
 - 实时通信：WebSocket，实现司机与顾客之间信息传递与存储
 
 ## 前端技术栈与功能
