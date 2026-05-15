@@ -29,6 +29,10 @@
   - 展示地图
   - 经纬度 ↔ 地址 转换
   - 实时展示司机位置
+-管理界面采用element-plus完成，简单美观
+-安装依赖说明：
+  -axios，router和基本依赖安装
+  -element-plus和高德地图官方依赖安装
 
 ## 重要密钥配置
 高德地图的 key 和 security 密钥，需要在前端 .env.local 文件中自行填写
