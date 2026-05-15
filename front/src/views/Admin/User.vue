@@ -97,7 +97,7 @@ const total = ref(0)
 // 获取列表
 const getList = async () => {
   try {
-    const {data} = await request.get('/admin/user/select', {
+    const {data} = await request.get('/admin/check/user', {
       params: {
         name: query.value.name,
         gender: query.value.gender,
