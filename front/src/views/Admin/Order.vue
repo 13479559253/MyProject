@@ -39,13 +39,13 @@ const total = ref(0)
 
 const getList = async () => {
   try {
-    const {data} = await request.get('/admin/order/check', {
+    const {data} = await request.get('/admin/check/order', {
       params: {
         page: page.value - 1
       }
     })
-    orderList.value = data?.orderList || []
-    total.value = data?.total || 0
+    orderList.value = data
+    total.value = data?.length || 0
   } catch (e) {
     console.error('请求订单列表失败', e)
     orderList.value = []
